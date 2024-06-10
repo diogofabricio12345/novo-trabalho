@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+
+:root{
+--cor-da-letra: rgb(0, 47, 255);
+--cor-de-fundo:#000000;
+--fundo-senha:#000000;
+--fundo-texto:#004ca3;
+--borda:#001fcf;
+--fonte:"Anton", sans-serif;
+--fonte2:"Pacifico", cursive;
+}
+
+body{
+color: var(--cor-da-letra);
+background-color: var(--cor-de-fundo);
+font-family: var(--fonte);
+
+}
+
+.conteudo{
+text-align: center;
+font-size: 25px;
+}
+.img{
+        
+width: 80px;
+}
+        
+.titulo-principal{
+        
+font-size: 50px;
+font-family:"Anton",sans-serif var(--fonte);
+color: rgb(0, 26, 255)
+        
+}
+        
+ .titulo-secundario{  
+    font-size: 25px;
+    font-family:"Pacifico", cursive;    
+        
+ }
+ .conteudo-titulo{
+   text-align: center;
+   margin-top: 20px;
+ 
+ }
+ .conteudo-senha{
+   margin-top: 10px;
+   background: var(--fundo-senha);
+   padding:10px;
+   border-bottom: 25px solid var(--borda);
+
+ }
+ #campo-senha{
+ background-color: var(--fundo-senha);
+ border: ;
+ color: var(--letra);
+ width: 50%;
+
+
+ }
