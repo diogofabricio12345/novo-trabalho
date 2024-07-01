@@ -19,6 +19,8 @@ font-family: var(--fonte);
 }
 
 .conteudo{
+width: 65%;
+margin: 30 auto;
 text-align: center;
 font-size: 25px;
 }
@@ -54,9 +56,30 @@ color: rgb(0, 26, 255)
  }
  #campo-senha{
  background-color: var(--fundo-senha);
- border: ;
+ border-radius: 35px;
  color: var(--letra);
  width: 50%;
 
 
  }
+ #campo-senha:focus{
+  outline:none;
+  background-color: var(--fundo-campo);
+}
+
+.parametro{
+font-family: var(--fonte2);
+  font-size: 35px;
+background-color:black var(--fundo-texto);
+border: 2px solid var(--borda);
+margin-top: 40px;
+padding: 5px;
+
+}
+.parametro-titulo{
+font-family: var(--fonte2);
+font-size: 0px;
+
+}
+
+
