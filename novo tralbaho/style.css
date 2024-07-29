@@ -5,7 +5,7 @@
 --cor-da-letra: rgb(0, 47, 255);
 --cor-de-fundo:#000000;
 --fundo-senha:#000000;
---fundo-texto:#004ca3;
+--fundo-texto:#000000;
 --borda:#001fcf;
 --fonte:"Anton", sans-serif;
 --fonte2:"Pacifico", cursive;
@@ -37,21 +37,22 @@ color: rgb(0, 26, 255)
         
 }
         
- .titulo-secundario{  
+.titulo-secundario{  
     font-size: 25px;
     font-family:"Pacifico", cursive;    
         
- }
- .conteudo-titulo{
+}
+.conteudo-titulo{
    text-align: center;
    margin-top: 20px;
  
- }
- .conteudo-senha{
+}
+.conteudo-senha{
    margin-top: 10px;
    background: var(--fundo-senha);
    padding:10px;
    border-bottom: 25px solid var(--borda);
+   border-radius: 50px;
 
  }
  #campo-senha{
@@ -64,22 +65,38 @@ color: rgb(0, 26, 255)
  }
  #campo-senha:focus{
   outline:none;
-  background-color: var(--fundo-campo);
-}
+  
+  }
+ .conteudo{
+width: 1200px;
+margin: 0 auto;
 
-.parametro{
-font-family: var(--fonte2);
-  font-size: 35px;
-background-color:black var(--fundo-texto);
-border: 2px solid var(--borda);
+ }
+
+ .parametro{
+background-color: var(--fundo-texto);
+border: 8px solid var(--borda);
 margin-top: 40px;
 padding: 5px;
 
-}
-.parametro-titulo{
+ }
+ .parametro-titulo{
 font-family: var(--fonte2);
-font-size: 0px;
+font-size: 32px;
 
-}
+ }
+ .parametro-senha{
+width: 90%;
+margin: 0 auto;
+
+
+ }
+ .parametro-coluna-senha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+ }
 
 
