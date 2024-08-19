@@ -74,7 +74,7 @@ margin: 0 auto;
  }
 
  .parametro{
-background-color: var(--fundo-texto);
+background-color: var(--fundo-senha);
 border: 8px solid var(--borda);
 margin-top: 40px;
 padding: 30px;
@@ -120,6 +120,34 @@ margin: 0 auto;
     cursor: pointer;
 
  }
+ .label{
+font-size: 10px;
+
+
+ }
+ .checkbox{
+ cursor: pointer;
+ width: 20px;
+ height: 20px;
+
+
+ }
+ .barra{
+background-color: blue;
+height: 20px;
+width: 100%;
+
+ }
+ .fraco{
+height: 20px;
+width: 10%;
+background-color: rgb(0, 247, 255);
+position: relative;
+bottom: 20px;
+
+
+ }
+
  
 
 
