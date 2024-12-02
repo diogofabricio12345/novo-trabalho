@@ -1,5 +1,5 @@
 const numeroSenha = document.querySelector(".parametro-senha-texto");
-let tamanhoSenha = 666;
+let tamanhoSenha = 66;
 numeroSenha.textcontent = tamanhoSenha;
 const botoes = document.querySelectorAll(".parametro-senha-botao");
 const campoSenha = document.querySelector("#campo-senha");
@@ -33,5 +33,6 @@ senha = senha + letrasMaiusculas[numeroAleatorio];
 
 }
 campoSenha.value = senha;
+geraSenha()
 }
 
